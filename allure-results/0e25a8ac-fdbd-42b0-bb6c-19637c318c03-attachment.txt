@@ -1,0 +1,4 @@
+{
+  "using": "accessibility id",
+  "value": "A message should be a short, complete sentence."
+}

@@ -1,0 +1,4 @@
+{
+  "using": "-android uiautomator",
+  "value": "new UiSeletor().text(\"App\").className(\"android.widget.TextView\")"
+}
