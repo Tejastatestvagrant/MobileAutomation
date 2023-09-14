@@ -11,12 +11,12 @@ config.specs= [
 
 config.capabilities= [{
     // capabilities for local Appium web tests on an Android Emulator
-    'platformName': 'Android',
-    'automationName': 'UIAutomator2',
-    'deviceName':'Google Pixel 3',
-    'platformVersion': '10.0',
-    'app':'bs://7153df97978569283da7a284d5e72f1bbe97a835',
-    'autoGrantPermissions':'true'
+    platformName: 'Android',
+    'appium:automationName': 'UIAutomator2',
+    'appium:deviceName':'Google Pixel 3',
+    'appium:platformVersion': '10.0',
+    'appium:app':'bs://7153df97978569283da7a284d5e72f1bbe97a835',
+    'appium:autoGrantPermissions':'true'
 }]
 config.services= ['browserstack']
 

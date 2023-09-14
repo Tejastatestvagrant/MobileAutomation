@@ -1,3 +1,5 @@
+
+
 class AddNoteScreen{
 
     get skipBtn(){
@@ -24,6 +26,9 @@ class AddNoteScreen{
     }
 
   async saveNote () {
+      
+    await driver.back();
+    await driver.back();
 
    
 
