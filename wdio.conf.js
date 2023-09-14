@@ -57,8 +57,8 @@ exports.config = {
         'appium:automationName': 'XCUITest',
         'appium:deviceName':'iPhone 14 Pro Max',
         'appium:platformVersion': '16.4',
-        'appium:app':'/Users/Tej/Desktop/webdriverio-appium-v8/app/ios/UIKitCatalog.app.zip',
-        
+        'appium:app':'/Users/Tej/Desktop/webdriverio-appium-v8/app/ios/MVCTodo.app (2).zip',
+        'appium:autoGrantPermissions':'true'
     }],
 
     //
@@ -234,7 +234,7 @@ exports.config = {
      * @param {boolean} result.passed    true if test has passed, otherwise false
      * @param {object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    afterTest: async function(test, context, { error, result, duration, passed, retries }) {
+    afterTest: async function(test, context, {  passed }) {
         if (!passed) {
             await browser.takeScreenshot();
         }

@@ -26,7 +26,7 @@ describe("scroll and click on the element by uiScrollable Collection",()=>{
 
 
 
-    expect(await $('android.widget.TextView')).toHaveText("10-10-2023");
+    await expect(await $('android.widget.TextView')).toHaveText("10-10-2023");
    
 
    })
