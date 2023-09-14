@@ -15,7 +15,7 @@ jobs:
            BROWSERSTACK_USER: ${{ secrets.BS_USER }}
            BROWSERSTACK_KEY: ${{ secrets.BS_KEY }}
         - name: Test
-          run: npx wdio config/wdio.andriod.bs.config.js --spec test/specs/android/test.e2e.js
+          run: npx wdio run ./config/wdio.andriod.bs.config.js --spec ./test/specs/android/test.e2e.js
         - uses: actions/upload-artifact@v1
           if: failure()
           with:

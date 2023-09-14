@@ -1,11 +1,12 @@
+require('dotenv').config();
 const config = require("./wdio.shared.config");
-require('dotenv').config()
+
 
 config.user=process.env.BROWSERSTACK_USER;
 config.key=process.env.BROWSERSTACK_KEY;
 
 config.specs= [
-    '/Users/Tej/Desktop/webdriverio-appium-v8/test/specs/android/*.e2e.js'
+    '/Users/Tej/Desktop/webdriverio-appium-v8/test/specs/android/test.e2e.js'
 ]
 
 config.capabilities= [{
