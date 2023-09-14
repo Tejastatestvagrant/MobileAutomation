@@ -17,6 +17,7 @@ config.capabilities= [{
     'appium:platformVersion': '10.0',
     'appium:app':'bs://7153df97978569283da7a284d5e72f1bbe97a835',
     'appium:autoGrantPermissions':'true'
+    //checl2
 }]
 config.services= ['browserstack']
 
