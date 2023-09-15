@@ -6,7 +6,7 @@ config.user=process.env.BROWSERSTACK_USER;
 config.key=process.env.BROWSERSTACK_KEY;
 
 config.specs= [
-    '*/test/specs/android/test.e2e.js'
+    './test/specs/android/test.e2e.js'
 ]
 
 
