@@ -6,9 +6,9 @@ config.user=process.env.BROWSERSTACK_USER;
 config.key=process.env.BROWSERSTACK_KEY;
 
 config.specs= [
-    '/Users/Tej/Desktop/webdriverio-appium-v8/test/specs/android/test.e2e.js'
+    '*/test/specs/android/test.e2e.js'
 ]
-//check3
+
 
 config.capabilities= [{
     // capabilities for local Appium web tests on an Android Emulator
