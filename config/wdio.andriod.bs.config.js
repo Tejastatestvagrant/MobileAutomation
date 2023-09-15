@@ -20,6 +20,15 @@ config.capabilities= [{
     'appium:autoGrantPermissions':'true'
     //checl3
 }]
-config.services= ['browserstack']
+config.services= [
+    ['browserstack', {
+        testObservability: true,
+        testObservabilityOptions: {
+            'projectName': 'Specify your project name here. It should not be dynamic',
+            'buildName': 'Specify your job name here. For e.g. `Nightly regression`. It should not be dynamic',
+            'buildTag': 'Any build tag goes here. For e.g. commit message'
+        },
+    }]
+]
 
 exports.config=config;
