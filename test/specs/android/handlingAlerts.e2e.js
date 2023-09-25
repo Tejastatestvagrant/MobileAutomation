@@ -8,7 +8,7 @@ describe("acceptanddismiss alerts" ,()=>{
         await driver.acceptAlert();
         await expect (await $("//*[@resource_id='android:id/alertTitle']")).not.toExist();
 
-
+//check
     })
 
 })

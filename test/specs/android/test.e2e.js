@@ -3,8 +3,11 @@ const note = require("../../pageobjects/Screen-Object-Page/AddNoteScreen")
 describe('click on app and validated', () => {
 
     it("create a  note " ,async()=>{
-         await note.skipBtn.click();
-         await expect(await note.addBtn).toBeExisting();
+        await note.skipBtn.click();
+        await note.addBtn.click();
+       await expect( await note.testOption).toBeExisting();
+       
+        
 
     })
     it.skip('click on app and assert', async () => {
@@ -45,3 +48,5 @@ describe('click on app and validated', () => {
     
 })
 
+
+//change to string the secrets

@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "-ios:class chain **/XCUIElementTypeOther[`label == \"Horizontal scroll bar, 1 page\"`][2]"
-}
