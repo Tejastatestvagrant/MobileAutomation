@@ -1,3 +1,0 @@
-{
-  "text": "note 1 \n note 2 \n note 3"
-}

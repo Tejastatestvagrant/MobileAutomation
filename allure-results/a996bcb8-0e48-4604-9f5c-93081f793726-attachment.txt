@@ -1,4 +1,0 @@
-{
-  "appPackage": "com.socialnmobile.dictapps.notepad.color.note",
-  "appActivity": "com.socialnmobile.dictapps.notepad.color.note.com.socialnmobile.dictapps.notepad.color.note"
-}

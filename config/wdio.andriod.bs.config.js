@@ -2,8 +2,8 @@ require('dotenv').config();
 const config = require("./wdio.shared.config");
 
 
-config.user=process.env.BROWSERSTACK_USER;
-config.key=process.env.BROWSERSTACK_KEY;
+config.user = process.env.BROWSERSTACK_USER || "tejass_KCQGUo" ; 
+config.key = process.env.BROWSERSTACK_KEY || "JGfbCVTBAwcmovzRtNp1" ;
 
 config.specs= [
     './test/specs/android/test.e2e.js'
